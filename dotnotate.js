@@ -11,8 +11,9 @@ function objToStringDotNnotation(obj, res, currentKey) {
     })
     return res;
 }
-
-function objNotateToString(obj){
-    data = objToStringDotNnotation(obj,{})
+function objNotateToString(obj) {
+    data = objToStringDotNnotation(obj, {})
     return data
 }
+
+module.exports = objNotateToString;
