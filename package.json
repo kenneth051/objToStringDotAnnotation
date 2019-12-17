@@ -1,0 +1,19 @@
+{
+  "name": "objtostringdotannotation",
+  "version": "1.0.0",
+  "description": "A simple package that turns a json object(javascript object) whether nested or not into a string dot anotation.  ",
+  "main": "dot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenneth051/objToStringDotAnnotation.git"
+  },
+  "author": "kenneth051",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenneth051/objToStringDotAnnotation/issues"
+  },
+  "homepage": "https://github.com/kenneth051/objToStringDotAnnotation#readme"
+}
