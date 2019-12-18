@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kenneth051/objToStringDotAnnotation.git"
+    "url": "git+https://github.com/kenneth051/objToStringDotNotation.git"
   },
   "author": "kenneth051",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kenneth051/objToStringDotAnnotation/issues"
+    "url": "https://github.com/kenneth051/objToStringDotNotation/issues"
   },
-  "homepage": "https://github.com/kenneth051/objToStringDotAnnotation#readme"
+  "homepage": "https://github.com/kenneth051/objToStringDotNotation#readme",
+  "dependencies": {
+    "mocha": "^6.2.2"
+  }
 }
