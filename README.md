@@ -1,13 +1,22 @@
+
 [![Build Status](https://travis-ci.org/kenneth051/objectdotnotate.svg?branch=master)](https://travis-ci.org/kenneth051/objectdotnotate)
 
 [![Coverage Status](https://coveralls.io/repos/github/kenneth051/objectdotnotate/badge.svg?branch=fix-coverllas)](https://coveralls.io/github/kenneth051/objectdotnotate?branch=fix-coverllas)
 
-# Object To String Dot Notation
+# ObjectDotNotate
 Javascript function that turns nested json objects into dotted strings with their corresponding values it takes in an object and returns an object with string notation of all nested objects . This comes in handy when you are filtering a mongo db query using a nested object or a smiple object.
+
+Installation
+
+     npm i objectdotnotate
+            
+Usage
+
+     var objectdotnotate = require('objectdotnotate');
 
 Example
 
-      data = {
+     var data = {
           obj: "obj",
           nested_once: { first: "first" },
           nested_twice: {
@@ -20,9 +29,11 @@ Example
 
 //call the relevant method to convert our object 
 
-        returnedObj = objNotateToString(data)
+        var returnedObj = objectdotnotate(data)
 
 //returnedObj output
+
+            console.log(returnedObj)
 
       {
         obj: 'obj',
@@ -33,7 +44,8 @@ Example
       }
 
 **If an object passed in has an array value, Then the output will be as below**
-example
+
+Example
 
     data={
         obj: "obj",
@@ -45,9 +57,11 @@ example
     
 conversion
 
-    returnedObj = objNotateToString(data)
+    returnedObj = objectdotnotate(data)
 
 output
+          
+    console.log(returnedObj)
 
     {
       obj: 'obj',
