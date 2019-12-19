@@ -1,6 +1,5 @@
 
 [![Build Status](https://travis-ci.org/kenneth051/objectdotnotate.svg?branch=master)](https://travis-ci.org/kenneth051/objectdotnotate)
-
 [![Coverage Status](https://coveralls.io/repos/github/kenneth051/objectdotnotate/badge.svg?branch=fix-coverllas)](https://coveralls.io/github/kenneth051/objectdotnotate?branch=fix-coverllas)
 
 # ObjectDotNotate
