@@ -28,11 +28,12 @@ Example
           }
       }
 
-//call the relevant method to convert our object 
+call the relevant method to convert our object 
 
         var returnedObj = objectdotnotate(data)
 
-//returnedObj output
+
+returnedObj output
 
             console.log(returnedObj)
 
