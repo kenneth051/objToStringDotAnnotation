@@ -1,19 +1,17 @@
 function objToStringDotNnotation(obj, res, currentKey) {
     Object.keys(obj).forEach(key => {
-        const value = obj[key];
         const newKey = (currentKey ? currentKey + "." + key : key);
         if (obj[key] && obj[key].constructor === Object) {
-            return objToStringDotNnotation(value, res = res, newKey);
+            objToStringDotNnotation(obj[key], res, newKey);
         } else {
-            res[newKey] = value;
+            res[newKey] = obj[key];
         }
-
     })
     return res;
 }
 function objNotateToString(obj) {
     data = objToStringDotNnotation(obj, {})
-    return data
+    return data;
 }
 
-module.exports = objNotateToString;
+module.exports = {objNotateToString};
