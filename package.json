@@ -1,7 +1,7 @@
 {
   "name": "objectdotnotate",
   "version": "1.0.0",
-  "description": "Javascript function that turns nested json objects into dotted strings",
+  "description": "Javascript function that turns nested json objects into dotted strings refrencing their respective values",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,8 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/kenneth051/objectdotnotate.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Ddumba KenNeth",
+    "email": "kjdumba@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kenneth051/objectdotnotate/issues"
   },
