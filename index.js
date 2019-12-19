@@ -14,4 +14,4 @@ function objNotateToString(obj) {
     return data;
 }
 
-module.exports = {objNotateToString};
+module.exports = { objNotateToString };
