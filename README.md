@@ -5,7 +5,7 @@
   [![Build Status](https://travis-ci.org/kenneth051/objectdotnotate.svg?branch=master)](https://travis-ci.org/kenneth051/objectdotnotate)  [![Coverage Status](https://coveralls.io/repos/github/kenneth051/objectdotnotate/badge.svg?branch=fix-coverllas)](https://coveralls.io/github/kenneth051/objectdotnotate?branch=fix-coverllas)
 
 
-Javascript function that turns nested json objects into dotted strings with their corresponding values it takes in an object and returns an object with string notation of all nested objects . This comes in handy when you are filtering a mongo db query using a nested object or a smiple object.
+ ObjectDotNotate turns nested json objects into dotted strings with their corresponding values it takes in an object and returns an object with string notation of all nested objects . This comes in handy when you are filtering a mongo db query using a nested object or a smiple object.
 
 Installation
 

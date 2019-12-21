@@ -1,6 +1,6 @@
 {
   "name": "objectdotnotate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Javascript function that turns nested json objects into dotted strings refrencing their respective values",
   "main": "index.js",
   "directories": {
@@ -22,7 +22,8 @@
   "keywords": [
     "object",
     "notation",
-    "dot"
+    "dot",
+    "dotty"
   ],
   "bugs": {
     "url": "https://github.com/kenneth051/objectdotnotate/issues"
